@@ -1,0 +1,119 @@
+@media (min-width:400px) and (max-width: 768px) {
+  .service {
+  display: flex;
+  flex-flow: column;
+  box-sizing: border-box;
+  justify-content: center;
+  }
+  .service__card {
+  width: 630px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  height: 480px;
+  margin-top: 30px;
+  }
+}
+@media (min-width: 769px) {
+  .service {
+  display: grid;
+  grid-template-columns: 540px 540px;
+  grid-template-rows: 420px 420px;
+  gap: 20px;
+  justify-content: center;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+  .service__card {
+  width: 540px;
+  margin-top: 30px;
+  }
+}
+.service__ttl {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0 auto;
+  padding-top: 100px;
+  text-align: center;
+}
+.service__card-img img {
+  width: 100%;
+  height: 80%;
+}
+.service__card-container-cat {
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+.service__card-container-ttl {
+  line-height: 30px;
+  font-size: 16px;
+}
+.service__btn {
+  background-color: firebrick;
+  width: 200px;
+  color: white;
+  font-size: 16px;
+  margin: 70px auto 84px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 52px;
+}
+
+
+/* ↓リンク先 */
+
+@media (min-width:400px) and (max-width: 768px){
+  .service__pic-item {
+  margin: 0 20px 0;
+  box-sizing: border-box;
+}
+.service__pic-img img{
+width: 90%;
+margin: 20px auto;
+box-sizing: border-box;
+text-align: center;
+display: block;
+}
+.service__pic-text {
+  width: 90%;
+  margin-left:  5%;
+  border-top:1px solid black ;
+}
+
+}
+
+@media (min-width: 768px ){
+  .service__pic-item {
+  display: flex;
+  width: 1080px;
+  box-sizing: border-box;
+  border-top:1px solid black ;
+}
+.service__pic-img img{
+width: 290px;
+margin: 20px 40px 24px 0;
+box-sizing: border-box;
+}
+}
+
+
+
+.service__pic-container {
+  display: flex;
+  justify-content: center;
+}
+
+.border-bottom {
+  border-bottom:1px solid black ;
+}
+
+
+.service__pic-text h3{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 48px;
+}
+.service__pic {
+  margin-bottom: 80px;
+}

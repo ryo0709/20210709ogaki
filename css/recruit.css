@@ -1,0 +1,87 @@
+.commpany-recruit__container {
+  height: 240px;
+  display: flex;
+  margin-bottom: 80px;
+}
+.commpany-recruit__container a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+.commpany-recruit__container-commpany {
+  width: 50%;
+  height: 100%;
+  background-color: red;
+  display: block;
+  position: relative;
+}
+.commpany-recruit__container-commpany-item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.commpany-recruit__container-recruit {
+  width: 50%;
+  height: 100%;
+  background-color: black;
+  display: block;
+  position: relative;
+}
+.commpany-recruit__container-recruit-item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* ↓リンク先 */
+@media (min-width: 300px) and (max-width: 768px) {
+  .recruit__content {
+  text-align: left;
+  width: 90%;
+  margin: 0 auto 80px;
+}
+}
+
+
+@media (min-width: 768px) {
+  .recruit__content {
+  text-align: left;
+  width: 960px;
+  margin: 0 auto 80px;
+}
+}
+
+
+.recruit__text h3 {
+  font-size: 2px;
+  border-bottom: 1px solid black;
+  padding-bottom: 6px;
+}
+.recruit__text p {
+  line-height: 60px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+table th,
+table td {
+  border: 1px solid black;
+  padding: 14px;
+}
+table th {
+  background-color: gainsboro;
+  text-align: center;
+  width: 30%;
+}
+.recruit {
+  margin-bottom: 80px;
+}
+.recruit__container {
+  margin-bottom: 80px;
+}
