@@ -1,31 +1,40 @@
-@media (min-width:400px) and (max-width: 768px) {
+* {
+  box-sizing:border-box ;
+}
+@media (max-width: 768px) {
   .service {
+    width: 85%;
+    margin: 0 auto;
+  }
+  .service__inner {
   display: flex;
   flex-flow: column;
   box-sizing: border-box;
   justify-content: center;
+  margin: 0 auto;
   }
   .service__card {
-  width: 630px;
-  margin: 0 auto;
-  box-sizing: border-box;
-  height: 480px;
+    width: 100%;
+    margin: 0 auto;
   margin-top: 30px;
   }
 }
 @media (min-width: 769px) {
   .service {
-  display: grid;
-  grid-template-columns: 540px 540px;
-  grid-template-rows: 420px 420px;
-  gap: 20px;
-  justify-content: center;
+  width: 1000px;
   margin: 0 auto;
-  box-sizing: border-box;
 }
   .service__card {
-  width: 540px;
-  margin-top: 30px;
+  width: 48%;
+  margin-top: 20px;
+  margin-right: 10px;
+  }
+   .service__inner {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: center;
+  margin: 0 auto;
   }
 }
 .service__ttl {
@@ -34,10 +43,6 @@
   margin: 0 auto;
   padding-top: 100px;
   text-align: center;
-}
-.service__card-img img {
-  width: 100%;
-  height: 80%;
 }
 .service__card-container-cat {
   margin: 10px 0;
@@ -50,7 +55,7 @@
 }
 .service__btn {
   background-color: firebrick;
-  width: 200px;
+  width: 300px;
   color: white;
   font-size: 16px;
   margin: 70px auto 84px;
@@ -63,7 +68,7 @@
 
 /* ↓リンク先 */
 
-@media (min-width:400px) and (max-width: 768px){
+@media (max-width: 768px){
   .service__pic-item {
   margin: 0 20px 0;
   box-sizing: border-box;

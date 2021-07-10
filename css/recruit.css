@@ -36,25 +36,22 @@
   transform: translate(-50%, -50%);
 }
 
-
 /* ↓リンク先 */
-@media (min-width: 300px) and (max-width: 768px) {
+@media (max-width: 768px) {
   .recruit__content {
-  text-align: left;
-  width: 90%;
-  margin: 0 auto 80px;
-}
+    text-align: left;
+    width: 90%;
+    margin: 0 auto 80px;
+  }
 }
 
-
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .recruit__content {
-  text-align: left;
-  width: 960px;
-  margin: 0 auto 80px;
+    text-align: left;
+    width: 960px;
+    margin: 0 auto 80px;
+  }
 }
-}
-
 
 .recruit__text h3 {
   font-size: 2px;
